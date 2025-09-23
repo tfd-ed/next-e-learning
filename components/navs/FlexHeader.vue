@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <NuxtLink class="flex-none  text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
                     to="/">
-                    <img class="h-10 rounded-sm" src="~/assets/img/tfd_logo.jpeg" alt="TFD Logo" />
+                    <img class="h-10 rounded-md p-1" src="~/assets/img/tfd_logo.jpeg" alt="TFD Logo" />
                 </NuxtLink>
                 <!-- End Logo -->
 
@@ -107,11 +107,7 @@
                     </div>
 
                     <div class="flex items-center gap-x-3">
-                        <!-- <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-tfd font-medium text-sm text-white rounded-full focus:outline-none"
-                            href="../../templates/agency/index.html#contact">
-                            Sign In
-                        </a> -->
-                        <ShadowButton text="login" color="bg-tfd" />
+                        <ShadowButton icon="i-lucide-log-in" text="login" color="bg-tfd" />
                         <!-- Dark Mode Toggle -->
                         <DarkModeToggle />
                         <div class="flex items-center space-x-1 bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
