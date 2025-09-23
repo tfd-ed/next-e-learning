@@ -1,15 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/tailwindcss',
+    '@nuxt/ui',
     '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
     '@pinia/nuxt',
     '@nuxtjs/google-fonts',
     '@nuxt/image'
   ],
+  css: ['~/assets/css/tailwind.css'],
   colorMode: {
     preference: 'system',
     fallback: 'light',
@@ -26,6 +29,11 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'km',
@@ -39,7 +47,9 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Roboto": true,
-      'Kantumruy Pro': true
+      "Source Sans Pro": true,
+      'Kantumruy Pro': true,
+      'Playfair Display': true
     }
   }
 })

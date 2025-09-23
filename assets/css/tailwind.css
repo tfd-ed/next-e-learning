@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@layer components {
+  button {
+    @apply hover:cursor-pointer;
+  }
+}
+
+@theme {
+  /* Font Family Configuration */
+  --font-sans: "Source Sans Pro", "Kantumruy Pro", sans-serif;
+  --font-mono: "Georgia", "Noto Serif Khmer", ui-monospace, SFMono-Regular,
+    "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Custom Color Palette */
+  --color-facebook: #1778f2;
+  --color-aba: #007297;
+  --color-aba-dark: #055d7c;
+  --color-bakong: #f70110;
+  --color-tfd: #dc2626;
+  --color-cover: #130f40;
+  --color-bg: #34495e;
+}
