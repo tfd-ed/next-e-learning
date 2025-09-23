@@ -1,8 +1,8 @@
 <template>
-    <HerosIntroValue />
-    <HerosClient />
-    <HerosTestimonial />
-    <StatsPlatformInfo />
-    <HerosApproach />
-    <ContactsReachUs />
+    <IntroValue />
+    <Client />
+    <Testimonial />
+    <PlatformInfo />
+    <Approach />
+    <ReachUs />
 </template>

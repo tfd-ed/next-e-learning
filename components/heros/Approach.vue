@@ -1,11 +1,12 @@
 <template>
-  <div class="bg-neutral-900">
+  <div class="bg-gray-50 dark:bg-neutral-900">
     <!-- Approach -->
     <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20  mx-auto">
       <!-- Title -->
       <div class="max-w-3xl mb-10 lg:mb-14">
-        <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Our approach</h2>
-        <p class="mt-1 text-neutral-400">This profound insight guides our comprehensive strategy — from
+        <h2 class="text-gray-900 dark:text-white font-semibold text-2xl md:text-4xl md:leading-tight">Our approach</h2>
+        <p class="mt-1 text-gray-600 dark:text-neutral-400">This profound insight guides our comprehensive strategy —
+          from
           meticulous research and strategic planning to the seamless execution of brand development
           and website or product deployment.</p>
       </div>
@@ -24,7 +25,7 @@
         <div>
           <!-- Heading -->
           <div class="mb-4">
-            <h3 class="text-xs font-medium uppercase text-[#ff0]">
+            <h3 class="text-xs font-medium uppercase text-blue-600 dark:text-[#ff0]">
               Steps
             </h3>
           </div>
@@ -34,10 +35,10 @@
           <div class="flex gap-x-5 ms-1">
             <!-- Icon -->
             <div
-              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-300 dark:after:bg-neutral-800">
               <div class="relative z-10 size-8 flex justify-center items-center">
                 <span
-                  class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                  class="flex flex-shrink-0 justify-center items-center size-8 border border-gray-300 dark:border-neutral-800 text-blue-600 dark:text-[#ff0] font-semibold text-xs uppercase rounded-full">
                   1
                 </span>
               </div>
@@ -46,8 +47,8 @@
 
             <!-- Right Content -->
             <div class="grow pt-0.5 pb-8 sm:pb-12">
-              <p class="text-sm lg:text-base text-neutral-400">
-                <span class="text-white">Market Research and Analysis:</span>
+              <p class="text-sm lg:text-base text-gray-600 dark:text-neutral-400">
+                <span class="text-gray-900 dark:text-white">Market Research and Analysis:</span>
                 Identify your target audience and understand their needs, preferences, and
                 behaviors.
               </p>
@@ -60,10 +61,10 @@
           <div class="flex gap-x-5 ms-1">
             <!-- Icon -->
             <div
-              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-300 dark:after:bg-neutral-800">
               <div class="relative z-10 size-8 flex justify-center items-center">
                 <span
-                  class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                  class="flex flex-shrink-0 justify-center items-center size-8 border border-gray-300 dark:border-neutral-800 text-blue-600 dark:text-[#ff0] font-semibold text-xs uppercase rounded-full">
                   2
                 </span>
               </div>
@@ -72,8 +73,8 @@
 
             <!-- Right Content -->
             <div class="grow pt-0.5 pb-8 sm:pb-12">
-              <p class="text-sm lg:text-base text-neutral-400">
-                <span class="text-white">Product Development and Testing:</span>
+              <p class="text-sm lg:text-base text-gray-600 dark:text-neutral-400">
+                <span class="text-gray-900 dark:text-white">Product Development and Testing:</span>
                 Develop digital products or services that address the needs and preferences of
                 your target audience.
               </p>
@@ -86,10 +87,10 @@
           <div class="flex gap-x-5 ms-1">
             <!-- Icon -->
             <div
-              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-300 dark:after:bg-neutral-800">
               <div class="relative z-10 size-8 flex justify-center items-center">
                 <span
-                  class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                  class="flex flex-shrink-0 justify-center items-center size-8 border border-gray-300 dark:border-neutral-800 text-blue-600 dark:text-[#ff0] font-semibold text-xs uppercase rounded-full">
                   3
                 </span>
               </div>
@@ -98,8 +99,8 @@
 
             <!-- Right Content -->
             <div class="grow pt-0.5 pb-8 sm:pb-12">
-              <p class="text-sm md:text-base text-neutral-400">
-                <span class="text-white">Marketing and Promotion:</span>
+              <p class="text-sm md:text-base text-gray-600 dark:text-neutral-400">
+                <span class="text-gray-900 dark:text-white">Marketing and Promotion:</span>
                 Develop a comprehensive marketing strategy to promote your digital products or
                 services.
               </p>
@@ -112,10 +113,10 @@
           <div class="flex gap-x-5 ms-1">
             <!-- Icon -->
             <div
-              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+              class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-300 dark:after:bg-neutral-800">
               <div class="relative z-10 size-8 flex justify-center items-center">
                 <span
-                  class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                  class="flex flex-shrink-0 justify-center items-center size-8 border border-gray-300 dark:border-neutral-800 text-blue-600 dark:text-[#ff0] font-semibold text-xs uppercase rounded-full">
                   4
                 </span>
               </div>
@@ -124,8 +125,8 @@
 
             <!-- Right Content -->
             <div class="grow pt-0.5 pb-8 sm:pb-12">
-              <p class="text-sm md:text-base text-neutral-400">
-                <span class="text-white">Launch and Optimization:</span>
+              <p class="text-sm md:text-base text-gray-600 dark:text-neutral-400">
+                <span class="text-gray-900 dark:text-white">Launch and Optimization:</span>
                 Launch your digital products or services to the market, closely monitoring their
                 performance and user feedback.
               </p>
@@ -134,7 +135,7 @@
           </div>
           <!-- End Item -->
 
-          <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
+          <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-blue-600 dark:bg-[#ff0] font-medium text-sm text-white dark:text-neutral-800 rounded-full focus:outline-none hover:bg-blue-700 dark:hover:bg-yellow-400 transition-colors duration-300"
             href="#">
             <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"

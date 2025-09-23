@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-neutral-900">
+    <div class="bg-white dark:bg-neutral-900 min-h-screen transition-colors duration-300">
         <main id="content">
-            <NavsFlexHeader />
+            <FlexHeader />
             <slot />
-            <NavsFlexFooter />
+            <FlexFooter />
         </main>
     </div>
 </template>
